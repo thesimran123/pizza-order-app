@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width"><title>Pizza Restaurant</title><meta name="description" content="Best pizza shop in town"><link rel="icon" href="http://localhost:3000/favicon.ico"><meta name="next-head-count" content="5"><noscript data-n-css=""></noscript><script defer="" nomodule="" src="./Pizza Restaurantonline_files/polyfills.js.download"></script><script src="./Pizza Restaurantonline_files/webpack.js.download" defer=""></script><script src="./Pizza Restaurantonline_files/main.js.download" defer=""></script><script src="./Pizza Restaurantonline_files/_app.js.download" defer=""></script><script src="./Pizza Restaurantonline_files/index.js.download" defer=""></script><script src="./Pizza Restaurantonline_files/_buildManifest.js.download" defer=""></script><script src="./Pizza Restaurantonline_files/_ssgManifest.js.download" defer=""></script><style>.Footer_container__MaumR {
+  height: calc(100vh - 100px);
+  background-color: #222;
+  display: flex;
+}
+
+.Footer_item__9gMMy {
+  flex: 1 1;
+  position: relative;
+  display: flex;
+}
+
+.Footer_item__9gMMy:last-child {
+  flex: 2 1;
+  padding: 50px;
+  justify-content: space-between;
+}
+
+.Footer_card__U_Gv4 {
+  flex: 1 1;
+  padding: 0 20px;
+}
+
+.Footer_title__oSMQ7 {
+  font-size: 18px;
+  color: #b7903c;
+}
+
+.Footer_text__R1oKh {
+  color: lightgray;
+}
+
+.Footer_motto__ABr0S {
+  color: rgb(211, 211, 211);
+}
+
+@media screen and (max-width: 480px) {
+  .Footer_container__MaumR {
+    height: auto;
+    text-align: center;
+  }
+  .Footer_item__9gMMy:first-child {
+    display: none;
+  }
+
+  .Footer_item__9gMMy {
+    flex-direction: column;
+  }
+
+  .Footer_title__oSMQ7 {
+    font-size: 30px;
+  }
+
+  .Footer_text__R1oKh {
+    font-size: 20px;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zdHlsZXMvRm9vdGVyLm1vZHVsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSwyQkFBMkI7RUFDM0Isc0JBQXNCO0VBQ3RCLGFBQWE7QUFDZjs7QUFFQTtFQUNFLFNBQU87RUFDUCxrQkFBa0I7RUFDbEIsYUFBYTtBQUNmOztBQUVBO0VBQ0UsU0FBTztFQUNQLGFBQWE7RUFDYiw4QkFBOEI7QUFDaEM7O0FBRUE7RUFDRSxTQUFPO0VBQ1AsZUFBZTtBQUNqQjs7QUFFQTtFQUNFLGVBQWU7RUFDZixjQUFjO0FBQ2hCOztBQUVBO0VBQ0UsZ0JBQWdCO0FBQ2xCOztBQUVBO0VBQ0UseUJBQXlCO0FBQzNCOztBQUVBO0VBQ0U7SUFDRSxZQUFZO0lBQ1osa0JBQWtCO0VBQ3BCO0VBQ0E7SUFDRSxhQUFhO0VBQ2Y7O0VBRUE7SUFDRSxzQkFBc0I7RUFDeEI7O0VBRUE7SUFDRSxlQUFlO0VBQ2pCOztFQUVBO0lBQ0UsZUFBZTtFQUNqQjtBQUNGIiwic291cmNlc0NvbnRlbnQiOlsiLmNvbnRhaW5lciB7XHJcbiAgaGVpZ2h0OiBjYWxjKDEwMHZoIC0gMTAwcHgpO1xyXG4gIGJhY2tncm91bmQtY29sb3I6ICMyMjI7XHJcbiAgZGlzcGxheTogZmxleDtcclxufVxyXG5cclxuLml0ZW0ge1xyXG4gIGZsZXg6IDE7XHJcbiAgcG9zaXRpb246IHJlbGF0aXZlO1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbn1cclxuXHJcbi5pdGVtOmxhc3QtY2hpbGQge1xyXG4gIGZsZXg6IDI7XHJcbiAgcGFkZGluZzogNTBweDtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbn1cclxuXHJcbi5jYXJkIHtcclxuICBmbGV4OiAxO1xyXG4gIHBhZGRpbmc6IDAgMjBweDtcclxufVxyXG5cclxuLnRpdGxlIHtcclxuICBmb250LXNpemU6IDE4cHg7XHJcbiAgY29sb3I6ICNiNzkwM2M7XHJcbn1cclxuXHJcbi50ZXh0IHtcclxuICBjb2xvcjogbGlnaHRncmF5O1xyXG59XHJcblxyXG4ubW90dG8ge1xyXG4gIGNvbG9yOiByZ2IoMjExLCAyMTEsIDIxMSk7XHJcbn1cclxuXHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDQ4MHB4KSB7XHJcbiAgLmNvbnRhaW5lciB7XHJcbiAgICBoZWlnaHQ6IGF1dG87XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgfVxyXG4gIC5pdGVtOmZpcnN0LWNoaWxkIHtcclxuICAgIGRpc3BsYXk6IG5vbmU7XHJcbiAgfVxyXG5cclxuICAuaXRlbSB7XHJcbiAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gIH1cclxuXHJcbiAgLnRpdGxlIHtcclxuICAgIGZvbnQtc2l6ZTogMzBweDtcclxuICB9XHJcblxyXG4gIC50ZXh0IHtcclxuICAgIGZvbnQtc2l6ZTogMjBweDtcclxuICB9XHJcbn1cclxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.Navbar_container__szo_H {
+  height: 100px;
+  padding: 0px 50px;
+  background-color: #e75480;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
+
+.Navbar_item__HsW_n {
+  flex: 1 1;
+  display: flex;
+  align-items: center;
+}
+
+.Navbar_item__HsW_n:nth-child(2) {
+  flex: 3 1;
+}
+
+.Navbar_item__HsW_n:last-child {
+  justify-content: flex-end;
+}
+
+.Navbar_callButton__F_8Wf {
+  background-color: white;
+  border-radius: 50%;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+}
+
+.Navbar_texts__ULx4_ {
+  margin-left: 20px;
+  color: white;
+}
+
+.Navbar_text__gnsS8:first-child {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.Navbar_text__gnsS8:last-child {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Navbar_list__P4FRN {
+  padding: 0;
+  display: flex;
+  align-items: center;
+  list-style: none;
+  color: white;
+}
+
+.Navbar_listItem__qHoxG {
+  margin: 20px;
+  font-weight: 500;
+}
+
+.Navbar_cart__bfM5Z {
+  position: relative;
+}
+
+.Navbar_counter__Jmxs7 {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: white;
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  color: #e75480;
+}
+
+@media screen and (max-width: 480px) {
+  .Navbar_item__HsW_n:nth-child(2) {
+    display: none;
+  }
+
+  .Navbar_item__HsW_n:nth-child(1) {
+    flex: 3 1;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zdHlsZXMvTmF2YmFyLm1vZHVsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxhQUFhO0VBQ2IsaUJBQWlCO0VBQ2pCLHlCQUF5QjtFQUN6QixhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLDhCQUE4QjtFQUM5Qix3QkFBZ0I7RUFBaEIsZ0JBQWdCO0VBQ2hCLE1BQU07RUFDTixZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxTQUFPO0VBQ1AsYUFBYTtFQUNiLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLFNBQU87QUFDVDs7QUFFQTtFQUNFLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLHVCQUF1QjtFQUN2QixrQkFBa0I7RUFDbEIsYUFBYTtFQUNiLFdBQVc7RUFDWCxZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxpQkFBaUI7RUFDakIsWUFBWTtBQUNkOztBQUVBO0VBQ0UsZUFBZTtFQUNmLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGVBQWU7RUFDZixpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSxVQUFVO0VBQ1YsYUFBYTtFQUNiLG1CQUFtQjtFQUNuQixnQkFBZ0I7RUFDaEIsWUFBWTtBQUNkOztBQUVBO0VBQ0UsWUFBWTtFQUNaLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixVQUFVO0VBQ1YsWUFBWTtFQUNaLFdBQVc7RUFDWCxZQUFZO0VBQ1osa0JBQWtCO0VBQ2xCLHVCQUF1QjtFQUN2QixZQUFZO0VBQ1osYUFBYTtFQUNiLG1CQUFtQjtFQUNuQix1QkFBdUI7RUFDdkIsaUJBQWlCO0VBQ2pCLGNBQWM7QUFDaEI7O0FBRUE7RUFDRTtJQUNFLGFBQWE7RUFDZjs7RUFFQTtJQUNFLFNBQU87RUFDVDtBQUNGIiwic291cmNlc0NvbnRlbnQiOlsiLmNvbnRhaW5lciB7XHJcbiAgaGVpZ2h0OiAxMDBweDtcclxuICBwYWRkaW5nOiAwcHggNTBweDtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiAjZTc1NDgwO1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWJldHdlZW47XHJcbiAgcG9zaXRpb246IHN0aWNreTtcclxuICB0b3A6IDA7XHJcbiAgei1pbmRleDogOTk5O1xyXG59XHJcblxyXG4uaXRlbSB7XHJcbiAgZmxleDogMTtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5pdGVtOm50aC1jaGlsZCgyKSB7XHJcbiAgZmxleDogMztcclxufVxyXG5cclxuLml0ZW06bGFzdC1jaGlsZCB7XHJcbiAganVzdGlmeS1jb250ZW50OiBmbGV4LWVuZDtcclxufVxyXG5cclxuLmNhbGxCdXR0b24ge1xyXG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xyXG4gIGJvcmRlci1yYWRpdXM6IDUwJTtcclxuICBwYWRkaW5nOiAxMHB4O1xyXG4gIHdpZHRoOiA1MHB4O1xyXG4gIGhlaWdodDogNTBweDtcclxufVxyXG5cclxuLnRleHRzIHtcclxuICBtYXJnaW4tbGVmdDogMjBweDtcclxuICBjb2xvcjogd2hpdGU7XHJcbn1cclxuXHJcbi50ZXh0OmZpcnN0LWNoaWxkIHtcclxuICBmb250LXNpemU6IDEycHg7XHJcbiAgZm9udC13ZWlnaHQ6IDUwMDtcclxufVxyXG5cclxuLnRleHQ6bGFzdC1jaGlsZCB7XHJcbiAgZm9udC1zaXplOiAyMHB4O1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcblxyXG4ubGlzdCB7XHJcbiAgcGFkZGluZzogMDtcclxuICBkaXNwbGF5OiBmbGV4O1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAgbGlzdC1zdHlsZTogbm9uZTtcclxuICBjb2xvcjogd2hpdGU7XHJcbn1cclxuXHJcbi5saXN0SXRlbSB7XHJcbiAgbWFyZ2luOiAyMHB4O1xyXG4gIGZvbnQtd2VpZ2h0OiA1MDA7XHJcbn1cclxuXHJcbi5jYXJ0IHtcclxuICBwb3NpdGlvbjogcmVsYXRpdmU7XHJcbn1cclxuXHJcbi5jb3VudGVyIHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgdG9wOiAtMTBweDtcclxuICByaWdodDogLTEwcHg7XHJcbiAgd2lkdGg6IDIwcHg7XHJcbiAgaGVpZ2h0OiAyMHB4O1xyXG4gIGJvcmRlci1yYWRpdXM6IDUwJTtcclxuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcclxuICBwYWRkaW5nOiAzcHg7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBhbGlnbi1pdGVtczogY2VudGVyO1xyXG4gIGp1c3RpZnktY29udGVudDogY2VudGVyO1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gIGNvbG9yOiAjZTc1NDgwO1xyXG59XHJcblxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA0ODBweCkge1xyXG4gIC5pdGVtOm50aC1jaGlsZCgyKSB7XHJcbiAgICBkaXNwbGF5OiBub25lO1xyXG4gIH1cclxuXHJcbiAgLml0ZW06bnRoLWNoaWxkKDEpIHtcclxuICAgIGZsZXg6IDM7XHJcbiAgfVxyXG59XHJcbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zdHlsZXMvZ2xvYmFscy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0VBRUUsVUFBVTtFQUNWLFNBQVM7RUFDVDt3RUFDc0U7QUFDeEU7O0FBRUE7RUFDRSxjQUFjO0VBQ2QscUJBQXFCO0FBQ3ZCOztBQUVBO0VBQ0Usc0JBQXNCO0FBQ3hCIiwic291cmNlc0NvbnRlbnQiOlsiaHRtbCxcbmJvZHkge1xuICBwYWRkaW5nOiAwO1xuICBtYXJnaW46IDA7XG4gIGZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsIFNlZ29lIFVJLCBSb2JvdG8sIE94eWdlbixcbiAgICBVYnVudHUsIENhbnRhcmVsbCwgRmlyYSBTYW5zLCBEcm9pZCBTYW5zLCBIZWx2ZXRpY2EgTmV1ZSwgc2Fucy1zZXJpZjtcbn1cblxuYSB7XG4gIGNvbG9yOiBpbmhlcml0O1xuICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG59XG5cbioge1xuICBib3gtc2l6aW5nOiBib3JkZXItYm94O1xufVxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.Featured_container__CBrON {
+  height: calc(100vh - 100px);
+  background-color: #e75480;
+  overflow: hidden;
+  position: relative;
+}
+
+.Featured_arrowContainer__nVV72 {
+  position: absolute;
+  width: 10%;
+  height: 20%;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.Featured_wrapper__7syZW {
+  width: 300vw;
+  height: 100%;
+  display: flex;
+  transition: all 1.5s ease-in-out;
+}
+
+.Featured_imgContainer__GU4bu {
+  width: 00vw;
+  height: 100%;
+  position: relative;
+}
+
+@media screen and (max-width: 480px) {
+  .Featured_container__CBrON {
+    height: 50vh;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zdHlsZXMvRmVhdHVyZWQubW9kdWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLDJCQUEyQjtFQUMzQix5QkFBeUI7RUFDekIsZ0JBQWdCO0VBQ2hCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGtCQUFrQjtFQUNsQixVQUFVO0VBQ1YsV0FBVztFQUNYLE1BQU07RUFDTixTQUFTO0VBQ1QsWUFBWTtFQUNaLGVBQWU7RUFDZixVQUFVO0FBQ1o7O0FBRUE7RUFDRSxZQUFZO0VBQ1osWUFBWTtFQUNaLGFBQWE7RUFDYixnQ0FBZ0M7QUFDbEM7O0FBRUE7RUFDRSxXQUFXO0VBQ1gsWUFBWTtFQUNaLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFO0lBQ0UsWUFBWTtFQUNkO0FBQ0YiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGFpbmVyIHtcclxuICBoZWlnaHQ6IGNhbGMoMTAwdmggLSAxMDBweCk7XHJcbiAgYmFja2dyb3VuZC1jb2xvcjogI2U3NTQ4MDtcclxuICBvdmVyZmxvdzogaGlkZGVuO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxufVxyXG5cclxuLmFycm93Q29udGFpbmVyIHtcclxuICBwb3NpdGlvbjogYWJzb2x1dGU7XHJcbiAgd2lkdGg6IDEwJTtcclxuICBoZWlnaHQ6IDIwJTtcclxuICB0b3A6IDA7XHJcbiAgYm90dG9tOiAwO1xyXG4gIG1hcmdpbjogYXV0bztcclxuICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgei1pbmRleDogMjtcclxufVxyXG5cclxuLndyYXBwZXIge1xyXG4gIHdpZHRoOiAzMDB2dztcclxuICBoZWlnaHQ6IDEwMCU7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICB0cmFuc2l0aW9uOiBhbGwgMS41cyBlYXNlLWluLW91dDtcclxufVxyXG5cclxuLmltZ0NvbnRhaW5lciB7XHJcbiAgd2lkdGg6IDAwdnc7XHJcbiAgaGVpZ2h0OiAxMDAlO1xyXG4gIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxufVxyXG5cclxuQG1lZGlhIHNjcmVlbiBhbmQgKG1heC13aWR0aDogNDgwcHgpIHtcclxuICAuY29udGFpbmVyIHtcclxuICAgIGhlaWdodDogNTB2aDtcclxuICB9XHJcbn1cclxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.PizzaList_container__yKAn_ {
+  padding: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.PizzaList_desc__9BvSr {
+  font-size: 24px;
+  color: #444;
+  width: 70%;
+}
+
+.PizzaList_wrapper__JfoE5 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 480px) {
+  .PizzaList_title__k5WKE {
+    text-align: center;
+  }
+
+  .PizzaList_desc__9BvSr {
+    width: 90%;
+    text-align: center;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zdHlsZXMvUGl6emFMaXN0Lm1vZHVsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxrQkFBa0I7RUFDbEIsYUFBYTtFQUNiLHNCQUFzQjtFQUN0QixtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxlQUFlO0VBQ2YsV0FBVztFQUNYLFVBQVU7QUFDWjs7QUFFQTtFQUNFLFdBQVc7RUFDWCxhQUFhO0VBQ2IsbUJBQW1CO0VBQ25CLHVCQUF1QjtFQUN2QixlQUFlO0FBQ2pCOztBQUVBO0VBQ0U7SUFDRSxrQkFBa0I7RUFDcEI7O0VBRUE7SUFDRSxVQUFVO0lBQ1Ysa0JBQWtCO0VBQ3BCO0FBQ0YiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGFpbmVyIHtcclxuICBwYWRkaW5nOiAyMHB4IDEwcHg7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbn1cclxuXHJcbi5kZXNjIHtcclxuICBmb250LXNpemU6IDI0cHg7XHJcbiAgY29sb3I6ICM0NDQ7XHJcbiAgd2lkdGg6IDcwJTtcclxufVxyXG5cclxuLndyYXBwZXIge1xyXG4gIHdpZHRoOiAxMDAlO1xyXG4gIGRpc3BsYXk6IGZsZXg7XHJcbiAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICBqdXN0aWZ5LWNvbnRlbnQ6IGNlbnRlcjtcclxuICBmbGV4LXdyYXA6IHdyYXA7XHJcbn1cclxuXHJcbkBtZWRpYSBzY3JlZW4gYW5kIChtYXgtd2lkdGg6IDQ4MHB4KSB7XHJcbiAgLnRpdGxlIHtcclxuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICB9XHJcblxyXG4gIC5kZXNjIHtcclxuICAgIHdpZHRoOiA5MCU7XHJcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgfVxyXG59XHJcbiJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.PizzaCard_container__m11sL {
+  width: 22%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px 40px;
+  cursor: pointer;
+}
+
+.PizzaCard_title__lbJae {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e75480;
+}
+
+.PizzaCard_price__EI4Vr {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+}
+
+.PizzaCard_desc__jy6_K {
+  text-align: center;
+  color: #777;
+}
+
+@media screen and (max-width: 480px) {
+  .PizzaCard_container__m11sL {
+    width: 100%;
+  }
+
+  .PizzaCard_title__lbJae {
+    font-size: 30px;
+  }
+
+  .PizzaCard_price__EI4Vr,
+  .PizzaCard_desc__jy6_K {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zdHlsZXMvUGl6emFDYXJkLm1vZHVsZS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxVQUFVO0VBQ1YsYUFBYTtFQUNiLGFBQWE7RUFDYixzQkFBc0I7RUFDdEIsbUJBQW1CO0VBQ25CLHVCQUF1QjtFQUN2QixrQkFBa0I7RUFDbEIsZUFBZTtBQUNqQjs7QUFFQTtFQUNFLGVBQWU7RUFDZixpQkFBaUI7RUFDakIsY0FBYztBQUNoQjs7QUFFQTtFQUNFLGVBQWU7RUFDZixpQkFBaUI7RUFDakIsV0FBVztBQUNiOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLFdBQVc7QUFDYjs7QUFFQTtFQUNFO0lBQ0UsV0FBVztFQUNiOztFQUVBO0lBQ0UsZUFBZTtFQUNqQjs7RUFFQTs7SUFFRSxlQUFlO0VBQ2pCO0FBQ0YiLCJzb3VyY2VzQ29udGVudCI6WyIuY29udGFpbmVyIHtcclxuICB3aWR0aDogMjIlO1xyXG4gIHBhZGRpbmc6IDEwcHg7XHJcbiAgZGlzcGxheTogZmxleDtcclxuICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gIGFsaWduLWl0ZW1zOiBjZW50ZXI7XHJcbiAganVzdGlmeS1jb250ZW50OiBjZW50ZXI7XHJcbiAgcGFkZGluZzogMjBweCA0MHB4O1xyXG4gIGN1cnNvcjogcG9pbnRlcjtcclxufVxyXG5cclxuLnRpdGxlIHtcclxuICBmb250LXNpemU6IDE4cHg7XHJcbiAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgY29sb3I6ICNlNzU0ODA7XHJcbn1cclxuXHJcbi5wcmljZSB7XHJcbiAgZm9udC1zaXplOiAxOHB4O1xyXG4gIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gIGNvbG9yOiAjNjY2O1xyXG59XHJcblxyXG4uZGVzYyB7XHJcbiAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gIGNvbG9yOiAjNzc3O1xyXG59XHJcblxyXG5AbWVkaWEgc2NyZWVuIGFuZCAobWF4LXdpZHRoOiA0ODBweCkge1xyXG4gIC5jb250YWluZXIge1xyXG4gICAgd2lkdGg6IDEwMCU7XHJcbiAgfVxyXG5cclxuICAudGl0bGUge1xyXG4gICAgZm9udC1zaXplOiAzMHB4O1xyXG4gIH1cclxuXHJcbiAgLnByaWNlLFxyXG4gIC5kZXNjIHtcclxuICAgIGZvbnQtc2l6ZTogMjRweDtcclxuICB9XHJcbn1cclxuIl0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsInNvdXJjZVJvb3QiOiIifQ== */</style><noscript id="__next_css__DO_NOT_USE__"></noscript></head><body><div id="__next"><div class="Navbar_container__szo_H"><div class="Navbar_item__HsW_n"><div class="Navbar_callButton__F_8Wf"><img alt="" loading="lazy" width="32" height="32" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimg%2Ftelephone.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimg%2Ftelephone.png&amp;w=64&amp;q=75 2x" src="./Pizza Restaurantonline_files/telephone.png"></div><div class="Navbar_texts__ULx4_"><div class="Navbar_text__gnsS8">ORDER NOW!</div><div class="Navbar_text__gnsS8">012 345 678</div></div></div><div class="Navbar_item__HsW_n"><ul class="Navbar_list__P4FRN"><li class="Navbar_listItem__qHoxG">Homepage</li><li class="Navbar_listItem__qHoxG">Products</li><li class="Navbar_listItem__qHoxG">Menu</li><img alt="" loading="lazy" width="160" height="69" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimg%2Flogo.webp&amp;w=256&amp;q=75 1x, /_next/image?url=%2Fimg%2Flogo.webp&amp;w=384&amp;q=75 2x" src="./Pizza Restaurantonline_files/logo.jpeg"><li class="Navbar_listItem__qHoxG">Events</li><li class="Navbar_listItem__qHoxG">Blog</li><li class="Navbar_listItem__qHoxG">Contact</li></ul></div><div class="Navbar_item__HsW_n"><div class="Navbar_cart__bfM5Z"><img alt="" loading="lazy" width="30" height="30" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimg%2Fcart.png&amp;w=32&amp;q=75 1x, /_next/image?url=%2Fimg%2Fcart.png&amp;w=64&amp;q=75 2x" src="./Pizza Restaurantonline_files/cart.png"><div class="Navbar_counter__Jmxs7">2</div></div></div></div><div><div class="Featured_container__CBrON"><div class="Featured_arrowContainer__nVV72" style="left:0"><img alt="" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:contain;color:transparent" sizes="100vw" srcset="/_next/image?url=%2Fimg%2Farrowl.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fimg%2Farrowl.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fimg%2Farrowl.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fimg%2Farrowl.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fimg%2Farrowl.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fimg%2Farrowl.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fimg%2Farrowl.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fimg%2Farrowl.png&amp;w=3840&amp;q=75 3840w" src="./Pizza Restaurantonline_files/arrowl.png"></div><div class="Featured_wrapper__7syZW" style="transform: translateX(-100vw);"><div class="Featured_imgContainer__GU4bu"><img alt="" loading="lazy" decoding="async" data-nimg="fill" style="position: absolute; height: 100%; width: 100%; inset: 0px; object-fit: contain;" sizes="100vw" srcset="/_next/image?url=%2Fimg%2Ffeatured.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fimg%2Ffeatured.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fimg%2Ffeatured.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fimg%2Ffeatured.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fimg%2Ffeatured.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fimg%2Ffeatured.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fimg%2Ffeatured.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fimg%2Ffeatured.png&amp;w=3840&amp;q=75 3840w" src="./Pizza Restaurantonline_files/image"></div><div class="Featured_imgContainer__GU4bu"><img alt="" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:contain;color:transparent" sizes="100vw" srcset="/_next/image?url=%2Fimg%2Ffeatured2.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fimg%2Ffeatured2.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fimg%2Ffeatured2.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fimg%2Ffeatured2.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fimg%2Ffeatured2.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fimg%2Ffeatured2.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fimg%2Ffeatured2.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fimg%2Ffeatured2.png&amp;w=3840&amp;q=75 3840w" src="./Pizza Restaurantonline_files/featured2.png"></div><div class="Featured_imgContainer__GU4bu"><img alt="" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:contain;color:transparent" sizes="100vw" srcset="/_next/image?url=%2Fimg%2Ffeatured3.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fimg%2Ffeatured3.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fimg%2Ffeatured3.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fimg%2Ffeatured3.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fimg%2Ffeatured3.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fimg%2Ffeatured3.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fimg%2Ffeatured3.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fimg%2Ffeatured3.png&amp;w=3840&amp;q=75 3840w" src="./Pizza Restaurantonline_files/featured3.png"></div></div><div class="Featured_arrowContainer__nVV72" style="right:0"><img alt="" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:contain;color:transparent" sizes="100vw" srcset="/_next/image?url=%2Fimg%2Farrowr.png&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fimg%2Farrowr.png&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fimg%2Farrowr.png&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fimg%2Farrowr.png&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fimg%2Farrowr.png&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fimg%2Farrowr.png&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fimg%2Farrowr.png&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fimg%2Farrowr.png&amp;w=3840&amp;q=75 3840w" src="./Pizza Restaurantonline_files/arrowr.png"></div></div><div class="PizzaList_container__yKAn_"><h1 class="PizzaList_title__k5WKE">THE BEST PIZZA IN TOWN</h1><p class="PizzaList_desc__9BvSr">🍕 Features: 📱 Easy Ordering: Order your favorite pizza with just a few taps. 🔥 Hot &amp; Fresh: Enjoy piping-hot pizza delivered straight to your door. 👌 Customization: Customize your pizza with a wide range of toppings. 📦 Deals &amp; Offers: Discover exclusive deals and special offers. 📍 Store Locator: Find the nearest pizza place for dine-in or pickup. 🌟 Loyalty Rewards: Earn rewards with every order. 💳 Secure Payment: Pay seamlessly with secure payment options. Join our pizza-loving community and elevate your pizza game today! Download the app and savor the perfect slice.</p><div class="PizzaList_wrapper__JfoE5"><div class="PizzaCard_container__m11sL"><img alt="" loading="lazy" width="300" height="300" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimg%2Fpizza3.webp&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimg%2Fpizza3.webp&amp;w=640&amp;q=75 2x" src="./Pizza Restaurantonline_files/pizza3.jpeg"><h1 class="PizzaCard_title__lbJae">FIORI DI ZUCCA</h1><span class="PizzaCard_price__EI4Vr">$19.90</span><p class="PizzaCard_desc__jy6_K">Indulge in a slice of pure bliss with our irresistibly yummy pizza!</p></div><div class="PizzaCard_container__m11sL"><img alt="" loading="lazy" width="300" height="300" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimg%2Fpizza3.webp&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimg%2Fpizza3.webp&amp;w=640&amp;q=75 2x" src="./Pizza Restaurantonline_files/pizza3.jpeg"><h1 class="PizzaCard_title__lbJae">FIORI DI ZUCCA</h1><span class="PizzaCard_price__EI4Vr">$19.90</span><p class="PizzaCard_desc__jy6_K">Indulge in a slice of pure bliss with our irresistibly yummy pizza!</p></div><div class="PizzaCard_container__m11sL"><img alt="" loading="lazy" width="300" height="300" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimg%2Fpizza3.webp&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimg%2Fpizza3.webp&amp;w=640&amp;q=75 2x" src="./Pizza Restaurantonline_files/pizza3.jpeg"><h1 class="PizzaCard_title__lbJae">FIORI DI ZUCCA</h1><span class="PizzaCard_price__EI4Vr">$19.90</span><p class="PizzaCard_desc__jy6_K">Indulge in a slice of pure bliss with our irresistibly yummy pizza!</p></div><div class="PizzaCard_container__m11sL"><img alt="" loading="lazy" width="300" height="300" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimg%2Fpizza3.webp&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimg%2Fpizza3.webp&amp;w=640&amp;q=75 2x" src="./Pizza Restaurantonline_files/pizza3.jpeg"><h1 class="PizzaCard_title__lbJae">FIORI DI ZUCCA</h1><span class="PizzaCard_price__EI4Vr">$19.90</span><p class="PizzaCard_desc__jy6_K">Indulge in a slice of pure bliss with our irresistibly yummy pizza!</p></div><div class="PizzaCard_container__m11sL"><img alt="" loading="lazy" width="300" height="300" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimg%2Fpizza3.webp&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimg%2Fpizza3.webp&amp;w=640&amp;q=75 2x" src="./Pizza Restaurantonline_files/pizza3.jpeg"><h1 class="PizzaCard_title__lbJae">FIORI DI ZUCCA</h1><span class="PizzaCard_price__EI4Vr">$19.90</span><p class="PizzaCard_desc__jy6_K">Indulge in a slice of pure bliss with our irresistibly yummy pizza!</p></div><div class="PizzaCard_container__m11sL"><img alt="" loading="lazy" width="300" height="300" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimg%2Fpizza3.webp&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimg%2Fpizza3.webp&amp;w=640&amp;q=75 2x" src="./Pizza Restaurantonline_files/pizza3.jpeg"><h1 class="PizzaCard_title__lbJae">FIORI DI ZUCCA</h1><span class="PizzaCard_price__EI4Vr">$19.90</span><p class="PizzaCard_desc__jy6_K">Indulge in a slice of pure bliss with our irresistibly yummy pizza!</p></div><div class="PizzaCard_container__m11sL"><img alt="" loading="lazy" width="300" height="300" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimg%2Fpizza3.webp&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimg%2Fpizza3.webp&amp;w=640&amp;q=75 2x" src="./Pizza Restaurantonline_files/pizza3.jpeg"><h1 class="PizzaCard_title__lbJae">FIORI DI ZUCCA</h1><span class="PizzaCard_price__EI4Vr">$19.90</span><p class="PizzaCard_desc__jy6_K">Indulge in a slice of pure bliss with our irresistibly yummy pizza!</p></div><div class="PizzaCard_container__m11sL"><img alt="" loading="lazy" width="300" height="300" decoding="async" data-nimg="1" style="color:transparent" srcset="/_next/image?url=%2Fimg%2Fpizza3.webp&amp;w=384&amp;q=75 1x, /_next/image?url=%2Fimg%2Fpizza3.webp&amp;w=640&amp;q=75 2x" src="./Pizza Restaurantonline_files/pizza3.jpeg"><h1 class="PizzaCard_title__lbJae">FIORI DI ZUCCA</h1><span class="PizzaCard_price__EI4Vr">$19.90</span><p class="PizzaCard_desc__jy6_K">Indulge in a slice of pure bliss with our irresistibly yummy pizza!</p></div></div></div></div><div class="Footer_container__MaumR"><div class="Footer_item__9gMMy"><img alt="" loading="lazy" decoding="async" data-nimg="fill" style="position:absolute;height:100%;width:100%;left:0;top:0;right:0;bottom:0;object-fit:cover;color:transparent" sizes="100vw" srcset="/_next/image?url=%2Fimg%2Fbg.jpg&amp;w=640&amp;q=75 640w, /_next/image?url=%2Fimg%2Fbg.jpg&amp;w=750&amp;q=75 750w, /_next/image?url=%2Fimg%2Fbg.jpg&amp;w=828&amp;q=75 828w, /_next/image?url=%2Fimg%2Fbg.jpg&amp;w=1080&amp;q=75 1080w, /_next/image?url=%2Fimg%2Fbg.jpg&amp;w=1200&amp;q=75 1200w, /_next/image?url=%2Fimg%2Fbg.jpg&amp;w=1920&amp;q=75 1920w, /_next/image?url=%2Fimg%2Fbg.jpg&amp;w=2048&amp;q=75 2048w, /_next/image?url=%2Fimg%2Fbg.jpg&amp;w=3840&amp;q=75 3840w" src="./Pizza Restaurantonline_files/bg.jpeg"></div><div class="Footer_item__9gMMy"><div class="Footer_card__U_Gv4"><h2 class="Footer_motto__ABr0S">OH YES, SATISFY YOUR CRAVINGS WITH OUR MOUTHWATERINGLY DELICIOUS PIZZA!.</h2></div><div class="Footer_card__U_Gv4"><h1 class="Footer_title__oSMQ7">FIND OUR RESTAURANTS</h1><p class="Footer_text__R1oKh">1654 R. Don Road #304.<br> India, 85022<br> (602) 867-1010</p><p class="Footer_text__R1oKh">2356 K. Laquie Rd #235.<br> India, 85022<br> (602) 867-1011</p><p class="Footer_text__R1oKh">1614 E. Erwin St #104.<br> India, 85022<br> (602) 867-1012</p><p class="Footer_text__R1oKh">1614 W. Caroll St #125.<br> India, 85022<br> (602) 867-1013</p></div><div class="Footer_card__U_Gv4"><h1 class="Footer_title__oSMQ7">WORKING HOURS</h1><p class="Footer_text__R1oKh">MONDAY UNTIL FRIDAY<br> 9:00 – 22:00</p><p class="Footer_text__R1oKh">SATURDAY - SUNDAY<br> 12:00 – 24:00</p></div></div></div></div><script src="./Pizza Restaurantonline_files/react-refresh.js.download"></script><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/","query":{},"buildId":"development","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script><div id="__next-build-watcher" style="position: fixed; bottom: 10px; right: 20px; width: 0px; height: 0px; z-index: 99999;"><template shadowrootmode="open"><div id="container">
+    <div id="icon-wrapper">
+      <svg viewBox="0 0 226 200">
+        <defs>
+          <lineargradient x1="114.720775%" y1="181.283245%" x2="39.5399306%" y2="100%" id="linear-gradient">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+          </lineargradient>
+        </defs>
+        <g id="icon-group" fill="none" stroke="url(#linear-gradient)" stroke-width="18">
+          <path d="M113,5.08219117 L4.28393801,197.5 L221.716062,197.5 L113,5.08219117 Z"></path>
+        </g>
+      </svg>
+    </div>
+  </div><style>
+    #container {
+      position: absolute;
+      bottom: 10px;
+      right: 30px;
+
+      border-radius: 3px;
+      background: #000;
+      color: #fff;
+      font: initial;
+      cursor: initial;
+      letter-spacing: initial;
+      text-shadow: initial;
+      text-transform: initial;
+      visibility: initial;
+
+      padding: 7px 10px 8px 10px;
+      align-items: center;
+      box-shadow: 0 11px 40px 0 rgba(0, 0, 0, 0.25), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+
+      display: none;
+      opacity: 0;
+      transition: opacity 0.1s ease, bottom 0.1s ease;
+      animation: fade-in 0.1s ease-in-out;
+    }
+
+    #container.visible {
+      display: flex;
+    }
+
+    #container.building {
+      bottom: 20px;
+      opacity: 1;
+    }
+
+    #icon-wrapper {
+      width: 16px;
+      height: 16px;
+    }
+
+    #icon-wrapper > svg {
+      width: 100%;
+      height: 100%;
+    }
+
+    #icon-group {
+      animation: strokedash 1s ease-in-out both infinite;
+    }
+
+    @keyframes fade-in {
+      from {
+        bottom: 10px;
+        opacity: 0;
+      }
+      to {
+        bottom: 20px;
+        opacity: 1;
+      }
+    }
+
+    @keyframes strokedash {
+      0% {
+        stroke-dasharray: 0 226;
+      }
+      80%,
+      100% {
+        stroke-dasharray: 659 226;
+      }
+    }
+  </style></template></div><next-route-announcer><p aria-live="assertive" id="__next-route-announcer__" role="alert" style="border: 0px; clip: rect(0px, 0px, 0px, 0px); height: 1px; margin: -1px; overflow: hidden; padding: 0px; position: absolute; top: 0px; width: 1px; white-space: nowrap; overflow-wrap: normal;"></p></next-route-announcer></body></html>
